@@ -1949,6 +1949,11 @@ pre code {
   .col-md-6 {
     width: 50%;
   }
+
+  .col-md-icons{
+    width: 20%;
+  }
+
   .col-md-5 {
     width: 41.66666667%;
   }
@@ -4877,6 +4882,39 @@ a.badge:focus {
 .jumbotron .container {
   max-width: 100%;
 }
+.rails-image{
+  height: 130px;
+  width: auto;
+}
+
+.hiptripimg{
+  margin-top: 100px;
+}
+
+.hiptripdiv{
+  background: white;
+  border: 1px solid lightblue;
+}
+
+.ownpropsdiv{
+  background: #053049;
+  border: 1px solid lightblue;
+}
+
+.ownpropsimg{
+  margin-top: 100px;
+}
+
+.starjdiv{
+  background: white;
+  border: 1px solid lightblue;
+}
+
+.starjimg{
+    height: 60%;
+    margin-top: 50px;
+}
+
 @media screen and (min-width: 768px) {
   .jumbotron {
     padding: 48px 0;
@@ -6391,6 +6429,14 @@ button.close {
 .visible-lg-inline-block {
   display: none !important;
 }
+
+.about-image-headshot{
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+
+}
+
 @media (max-width: 767px) {
   .visible-xs {
     display: block !important;
