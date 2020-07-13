@@ -204,7 +204,7 @@ hr {
 /* Skills Section */
 #skills {
 	padding: 100px 0;
-	background: lightpink;
+	background: rgb(255, 164, 177);
 	/* background: #7bc3d1; */
 }
 #skills h2 {
@@ -513,7 +513,7 @@ ol.type li a:hover {
 #contact {
 	padding: 100px 0 40px 0;
 	color: #121d1f;
-	background: lightpink;
+	background: rgb(255, 164, 177);
 	/* background: #7bc3d1; */
 }
 #contact h2 {
