@@ -228,14 +228,16 @@ Users can search for camping experiences using location keywords and be led to a
     </div> -->
     <div class="hiptrip-div-container">
         <div class="hiptrip-div">
-        <div class="hiptrip-div-content">
           <h3 class="hiptrip-title">HipTrip</h3>
-            <p class="hiptrip-description">
-              HipTrip is full-stack clone of HipCamp, an online marketplace for camping experiences, built with PostGRESQL and Ruby on Rails as the server
-              side web application framework. The frontend was constructed off of the React framework, also utilizing the Redux library.
-              Additionally, AWS was used for active storage, and the Google Maps API was used for the search functionality.
+          <img class="hiptrip-div-images" src="img/icons/hiptrip_landing.png">
+            <p>
+              <strong>
+              HipTrip is full-stack clone of HipCamp, an online marketplace for camping experiences, built with PostGRESQL and Ruby on Rails on the backend and React on the frontend.
+              Built with a Google Maps API implementation, HipTrip allows users to search for and book their next camping adventure.
+              </strong>
             </p>
-            <br><br>
+            <img class="hiptrip-div-images" src="https://media.giphy.com/media/Ress10ZlAewObvbmU5/giphy.gif">
+            <!-- <br><br>
             <p>
               Users are able to search for spots based on location keywords (by searching for the city or state the spot is located
               in), or by the several stay cetagories available. Within the 'Spots' view, information regarding which filters are
@@ -248,62 +250,45 @@ Users can search for camping experiences using location keywords and be led to a
               location, price, description, etc... The spot pages also feature reviews from other users that visited this spot and a
               rating along with their review message. Logged in users are able to create bookings by selecting check-in dates,
               check-out dates and number of guests. Users who have visited a spot are also able post reviews within this view.
-            </p>
+            </p> -->
             <br><br>
             <div class="hiptrip-live">
             <a href="https://aa-hiptrip.herokuapp.com/#/" target="_blank"><strong>Live</strong></a>
             </div>
         </div>
-
-        <div class="hiptrip-div-images">
-          <img src="img/icons/hiptrip_landing.png">
-
-          <img src="https://hiptrip-aa-seed.s3.amazonaws.com/search.png">
-
-          <img src="https://media.giphy.com/media/Ress10ZlAewObvbmU5/giphy.gif">
-        </div>
-
-      </div>
     </div>
 
       <div class="starjouster-div-container">
         <div class="starjouster-div">
-          <div class="starjouster-div-images">
-            <img src="img/icons/starjouster_menu.png">
-            <img src="img/icons/starjouster_game.png">
-          </div>
-          <div class="starjouster-div-content">
-            <h3 class="starjouster-title">StarJouster</h3>
-            <p class="starjouster-description">
-              StarJouster is a 2D arcade clone of the popular arcade platform game 'Joust' with a Star Wars Theme. The main purpose of
-              the game is to score as many points as possible, by defeating sith lords in joust battles and looting their lightsabers.
-              The player can control their character using the arrow keys to give direction, and by hitting the space key to fly. If
-              lightsabers are not looted, sith lords will respawn and soon the player will be overwhelmed.
-            </p>
-            <br><br>
-            <p>
-              The game functionality was primarily built on a canvas element, using plain old JavaScript. Using a multitude of classes
-              that represent different elements in the game like the Jouster, sith lords, ledges, lightsabers and lava, the game was
-              bundled together using webpack.
-            </p>
-            <br><br>
-            <div class="starjouster-live">
+          <h3 class="starjouster-title">StarJouster</h3>
+          <img class="starjouster-div-images" src="img/icons/starjouster_menu.png">
+          <p>
+            <strong>
+            StarJouster is a 2D arcade clone of the popular arcade platform game 'Joust' with a Star Wars Theme. The main purpose of
+            the game is to score as many points as possible, by defeating sith lords in joust battles and looting their lightsabers.
+            The player can control their character using the arrow keys to give direction, and by hitting the space key to fly. If
+            lightsabers are not looted, sith lords will respawn and soon the player will be overwhelmed.
+            </strong>
+          </p>
+          <img class="starjouster-div-images" src="img/icons/starjouster_game.png">
+          <div class="starjouster-live">
             <a href="https://sinoyuco.github.io/StarJouster/" target="_blank"><strong>Live</strong></a>
-            </div>
           </div>
         </div>
       </div>
 
     <div class="ownprops-div-container">
       <div class="ownprops-div">
-          <div class="ownprops-div-content">
               <h3 class="ownprops-title">OwnProps.Match</h3>
-              <p class="ownprops-description">
+              <img class="ownprops-div-images" src="https://media.giphy.com/media/daPBXoNCEyHKF16hY0/giphy.gif">
+              <p>
+                <strong>
                 OwnProps.Match is a matching application to bring together people who are looking for pair programmers. Users are able to create a profile and input information regarding themselves like language preferences, experience,
                 goals, etc... and will be able to see other user profiles in the form of cards and be able to swipe if they would like to match with them. Mutual likes create notifications for the users. This was a group project in which I acted as the backend lead.
+                </strong>
               </p>
-              <br><br>
-              <p>
+              <!-- <br><br> -->
+              <!-- <p>
                 The backend of this project was built using Mongoose models and Express routing actions to create/delete/modify Users,
                 Likes and Notifications. User authentication functionality was built using the passport-jwt strategy. The front-end was
                 constructed using React-Redux to send axios requests to MongoDB. Photoshop was used to create custom card animations
@@ -314,22 +299,19 @@ Users can search for camping experiences using location keywords and be led to a
               of cards for all the users that have signed up to the platform. Cards are flipped initially only showing a color and
               text combination of the language/framework they have chosen, and will flip to the front side showing more detailed
               information about the user upon hover. Users can filter for certain languages and frameworks, and then like/dislike at will.
-              </p>
-              <br><br>
+              </p> -->
+              <img class="ownprops-div-images" src="img/icons/ownprops_notifs.png">
               <div class="ownprops-live">
               <a href="https://aa-ownpropsdotmatch.herokuapp.com/#/" target="_blank"><strong>Live</strong></a>
               </div>
-          </div>
-          <div class="ownprops-div-images">
-            <img src="img/icons//ownprops_login.png">
-
+          <!-- <div class="ownprops-div-images">
             <img src="https://media.giphy.com/media/daPBXoNCEyHKF16hY0/giphy.gif">
 
             <img src="img/icons/ownprops_notifs.png">
-          </div>
+          </div> -->
       </div>
     </div>
-
+   
   
 
   </div>
